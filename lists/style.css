@@ -1,0 +1,57 @@
+* {
+	padding: 2px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+input, textarea, button, select {
+	font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+   background-color: transparent;
+}
+
+body {
+   font-family: Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.2;
+   color: #000;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 50px auto;
+   width: 80vw;
+}
+
+h1 {
+   padding-bottom: 30px;
+}
+
+.form {
+   width: 100%;
+}
+
+.content__form {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+
+h4 {
+   padding-bottom: 20px;
+}
